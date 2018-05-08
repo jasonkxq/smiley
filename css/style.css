@@ -696,6 +696,10 @@ textarea {
   list-style: none;
 }
 
+#fh5co-hero.mobile-spacer{
+
+}
+
 #fh5co-hero {
   background-color: #ffffff;
   background-size: cover;
@@ -719,11 +723,16 @@ textarea {
   background: #ffffff;
   opacity: .0;
 }
+
 @media screen and (max-width: 768px) {
   #fh5co-hero {
     background-position: right bottom;
     background-size: 120%;
   }
+  #fh5co-hero .mobile-spacer{
+    padding-top: 50px;
+  }
+
 }
 #fh5co-hero .fh5co-arrow {
   position: absolute;
