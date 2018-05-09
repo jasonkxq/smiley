@@ -138,7 +138,7 @@ ul, ol, p {
 }
 
 input[type="text"],
-input[type="password"],
+/* input[type="password"], */
 input[type="email"],
 input[type="search"],
 textarea {
@@ -726,7 +726,7 @@ textarea {
 
 @media screen and (max-width: 768px) {
   #fh5co-hero {
-    background-position: right bottom;
+    background-position: center bottom;
     background-size: 120%;
   }
   #fh5co-hero .mobile-spacer{
@@ -897,7 +897,7 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
   background-color: #57cecd;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
   padding: 7em;
 }
 @media screen and (max-width: 768px) {
