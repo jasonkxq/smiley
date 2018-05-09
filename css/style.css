@@ -726,7 +726,7 @@ textarea {
 
 @media screen and (max-width: 768px) {
   #fh5co-hero {
-    background-position: center bottom;
+    background-position: right bottom;
     background-size: 120%;
   }
   #fh5co-hero .mobile-spacer{
