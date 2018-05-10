@@ -700,11 +700,16 @@ textarea {
 
 }
 
+#fh5co-hero.cover-photo {
+  background-position: right bottom;
+}
+
+
 #fh5co-hero {
   background-color: #ffffff;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: center bottom;
   float: left;
   width: 100%;
   height: 300px;
@@ -725,8 +730,12 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
-  #fh5co-hero {
+  #cover-photo {
     background-position: right bottom;
+  }
+
+  #fh5co-hero {
+    background-position: center bottom;
     background-size: 120%;
   }
   #fh5co-hero .mobile-spacer{
