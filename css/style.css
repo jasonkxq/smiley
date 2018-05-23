@@ -791,6 +791,7 @@ textarea {
   vertical-align: middle;
   text-align: center;
   color: #ffffff;
+  margin-top: -150px;
 }
 #fh5co-hero .fh5co-hero-wrap .fh5co-hero-intro a {
   color: #010101;
@@ -808,6 +809,10 @@ textarea {
   text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.08);
 }
 @media screen and (max-width: 768px) {
+  #fh5co-hero .col-md-12 .fh5co-hero-wrap .fh5co-hero-intro {
+    margin-top: -80px;
+  }
+
   #fh5co-hero .fh5co-hero-wrap .fh5co-hero-intro > h1 {
     font-size: 30px;
   }
